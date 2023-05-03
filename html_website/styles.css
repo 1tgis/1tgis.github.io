@@ -100,8 +100,8 @@ body {
 			a:visited{
 				color:white;
 			}
-            .box_small {
-			
+            .img:hover {
+                transform: scale(1.02)
             }
 
             /* page games */
