@@ -64,7 +64,10 @@ body {
   .dropdown:hover .dropdown-content {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #3e8e41;} 
+  .dropdown:hover .dropbtn {
+    transform:scale(1.1);
+    background-color: #3e8e41;
+    } 
   .dropdown:hover .dropbtn {background-color: #272727;}
 
   @font-face { font-family: Formula1-Regular; src: url('fonts/Formula1-Regular-1.ttf'); } 
@@ -100,8 +103,8 @@ body {
 			a:visited{
 				color:white;
 			}
-            .img:hover {
-                transform: scale(1.02)
+            img:hover {
+                transform: scale(1.12);
             }
 
             /* page games */
