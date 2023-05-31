@@ -9,6 +9,36 @@ body {
     background-repeat:no-repeat;
     background-size: 100%;
   }
+  .cookies-eu-banner {
+    background: #444;
+    font-family: Unbounded-Regular;
+    color: #fff;
+    padding: 6px;
+    font-size: 13px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  .cookies-eu-banner button {
+    text-decoration: none;
+    font-family: Unbounded-ExtraBold;
+    background: #222;
+    color: #fff;
+    border: 1px solid #000;
+    cursor: pointer;
+    padding: 4px 7px;
+    margin: 2px 0;
+    font-size: 13px;
+    transition: background 0.07s, color 0.07s, border-color 0.07s;
+  }
+  
+  .cookies-eu-banner button:hover {
+    background: #fff;
+    color: #222;
+  }
   .box-title {
     color: #ffffff;
     text-align: center; /* Text zentrieren */

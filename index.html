@@ -7,6 +7,20 @@
 Paul Anton - Sim Racing
 </title>
 
+<div class="cookies-eu-banner">
+	This site doesn't use or collect cookies. We do not collect data from our users.
+	<button>Okay</button>
+  </div>
+<script>
+	(() => {
+  const $cookiesBanner = document.querySelector(".cookies-eu-banner");
+  const $cookiesBannerButton = $cookiesBanner.querySelector("button");
+
+  $cookiesBannerButton.addEventListener("click", () => {
+    $cookiesBanner.remove();
+  });
+})();
+</script>
 <link rel="icon" type="image/x-icon" href="images/tgis_logo.png">
 <body>
 

@@ -49,3 +49,16 @@
 <button style="float:right" onclick="window.location.href='https://github.com/1tgis/1tgis.github.io/blob/main/page_games.html';">
 	View Code
   </button>
+  <div class="cookies-eu-banner">
+	This site doesn't use or collect cookies. We do not collect data from our users.
+	<button>Okay</button>
+  </div>
+<script>
+	(() => {
+  const $cookiesBanner = document.querySelector(".cookies-eu-banner");
+  const $cookiesBannerButton = $cookiesBanner.querySelector("button");
+
+  $cookiesBannerButton.addEventListener("click", () => {
+    $cookiesBanner.remove();
+  });
+})();
